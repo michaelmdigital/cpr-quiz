@@ -1,0 +1,77 @@
+:root {
+  font-family: lato, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background: #e01ba7
+}
+
+.main-container {
+  min-width: 500px;
+  max-width: 500px;
+  padding: 30px 50px;
+  border: 3px solid #e01ba7;
+  border-radius: 6px;
+  background: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5), -2px -2px 5px rgba(255, 255, 255, 0.5);;
+}
+
+
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+
+a {
+  color: #e01ba7;
+}
+
+p {
+  font-size: 18px;
+  padding: 0px 60px
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.2;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding: 0px 40px
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  margin: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fff0f3;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  color: white;
+  background: #e01ba7;
+  transition: .2s;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.quiz {
+
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+}
+
+.home-img {
+  padding: 10px
+}
+
